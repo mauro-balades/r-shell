@@ -1,0 +1,14 @@
+[package]
+name = "ctrlc"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "ctrlc"
+path = "./ctrlc.rs"
+
+[dependencies]
+libc = "0.2"
+winapi = "0.2"
+kernel32-sys = "0.2"
